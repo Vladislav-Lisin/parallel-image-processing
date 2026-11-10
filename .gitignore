@@ -1,0 +1,7 @@
+bin/
+out/
+result/
+result_*/
+*.class
+.DS_Store
+result.png

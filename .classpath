@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <!-- Корень проекта — единственный src. bin/ и картинки/классы исключены,
+       чтобы output-папка не сканировалась как исходники и ресурсы не копировались в bin -->
+  <classpathentry kind="src" path="" excluding="bin/|result/|*.png|*.class|.project|.classpath"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>
